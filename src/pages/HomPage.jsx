@@ -1,7 +1,8 @@
-import { useNavigate, useNavigation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function HomePage() {
   const navigate = useNavigate();
+
   return (
     <section className="mx-auto my-36 grid w-10/12 place-items-center gap-y-10 rounded-lg bg-slate-100 py-10 shadow-lg sm:w-4/6 md:w-3/6 xl:w-2/6">
       <img
